@@ -1,0 +1,16 @@
+{
+    "name": "kotchuprik/php-short-id",
+    "description": "Yet another Short ID generator. The library help you generate short id like youtube, vimeo, bit.ly, etc.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Constantin Chuprik",
+            "email": "constantinchuprik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kotchuprik\\short_id\\": ""
+        }
+    }
+}

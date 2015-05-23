@@ -30,8 +30,8 @@ $id = $shortId->encode(422424, 6);  // $id will be 'babMwC'
 3. you found the record for ID 424242 in an your database
 
 ```php
-$id = $shortId->encode('bLTs');      // $id will be 'bLTs'
+$id = $shortId->decode('bLTs');      // $id will be 'bLTs'
 
 // or with $neededLength = 6
-$id = $shortId->encode('babMwC', 6); // $id will be 'babMwC'
+$id = $shortId->decode('babMwC', 6); // $id will be 'babMwC'
 ```
